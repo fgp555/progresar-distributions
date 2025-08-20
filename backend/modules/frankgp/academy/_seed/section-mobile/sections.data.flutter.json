@@ -1,0 +1,52 @@
+[
+    {
+        "courseId": 25310000,
+        "sectionOrder": 1,
+        "slug": "intro",
+        "titleSection": "Intro",
+        "lessons": [
+            {
+                "lessonOrder": 1,
+                "slug": "instalar",
+                "labelLesson": "Instalar",
+                "titleLesson": "🚀 Instalar Flutter y Configurar el Entorno de Desarrollo | Guía Paso a Paso 🌐",
+                "descriptionLesson": "Aprende a instalar Flutter en Windows, configurar Android Studio, el emulador o tu celular, y dejar tu entorno listo para comenzar a programar apps móviles.",
+                "tags": ["Flutter", "Instalación", "Entorno de Desarrollo"],
+                "youtubeUrl": "https://youtu.be/n2uK9RWdGrw",
+                "markdownUrl": "https://frank-gp.github.io/doc/academy/mobile/flutter/01-install.md",
+                "links": [
+                    {
+                        "name": "Install the Flutter SDK",
+                        "url": "https://docs.flutter.dev/get-started/install/windows/mobile"
+                    },
+                    {
+                        "name": "tutorial como conectar el celular",
+                        "url": "https://youtu.be/sqWfivhCZ1E"
+                    }
+                ],
+                "createdAt": "2025-07-15:00:00.000Z"
+            },
+            {
+                "lessonOrder": 2,
+                "slug": "publish",
+                "labelLesson": "Publicar",
+                "titleLesson": "🚀 Publicar tu App Flutter en Android | Play Store Paso a Paso 📲",
+                "descriptionLesson": "Aprende cómo generar un APK o AAB y publicar tu aplicación Flutter en Google Play Store, desde la firma del archivo hasta el despliegue final.",
+                "tags": ["Flutter", "Publicar", "Play Store", "Android", "AAB", "APK"],
+                "youtubeUrl": "https://youtu.be/wF-Q-sBR1i8",
+                "markdownUrl": "https://frank-gp.github.io/doc/academy/mobile/flutter/02-publish.md",
+                "links": [
+                    {
+                        "name": "Doc Deployment Android",
+                        "url": "https://docs.flutter.dev/deployment/android"
+                    },
+                    {
+                        "name": "Crear una firma de lanzamiento",
+                        "url": "https://docs.flutter.dev/deployment/android#signing-the-app"
+                    }
+                ],
+                "createdAt": "2025-07-15:00:00.000Z"
+            }
+        ]
+    }
+]

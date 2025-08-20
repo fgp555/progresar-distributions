@@ -1,0 +1,43 @@
+{
+    "name": "Al Carbón",
+    "slug": "al-carbon",
+    "order": 4,
+    "thumbnail": "https://images-mini.cluvi.com/r57HagvGnU/w_1200_r57HagvGnU_la-llanera-sangilena-45.png",
+    "menus": [
+        {
+            "name": "Punta de Anca ",
+            "slug": "punta-de-anca",
+            "price": 64900,
+            "description": "350 gr de jugosa punta de anca asada al carbón con adobos naturales. Incluye un chorizo del valle de San José y ensalada.",
+            "images": []
+        },
+        {
+            "name": "Chatas",
+            "slug": "chatas",
+            "price": 56000,
+            "description": "350 gr de chatas, asada al carbón y sazonadas con adobos que realzan su sabor. Incluye un chorizo del Valle de San José y ensalada de la casa.",
+            "images": ["https://images-mini.cluvi.com/TOOvnrFFN1/w_1200_TOOvnrFFN1_chatas.jpg"]
+        },
+        {
+            "name": "Pechuga Parrillera",
+            "slug": "pechuga-parrillera",
+            "price": 47000,
+            "description": "200 gr de pechuga de pollo, asada al carbón y adobada en nuestra mezcla especial de especias. Servida con Chorizo del Valle de San José y ensalada de la casa.",
+            "images": ["https://images-mini.cluvi.com/6HJkzjrxUM/w_1200_6HJkzjrxUM_pechuga.jpg"]
+        },
+        {
+            "name": "Lomo de Cerdo",
+            "slug": "lomo-de-cerdo",
+            "price": 54000,
+            "description": "350 gr de jugoso lomo de cerdo, asado lentamente al carbón y sazonado con nuestros adobos naturales.",
+            "images": []
+        },
+        {
+            "name": "Pincho Mixto ",
+            "slug": "pincho-mixto",
+            "price": 43000,
+            "description": "Una combinación perfecta: 100 gr de carne sangileña, 100 gr de pechuga parrillera y 1 chorizo del Valle de San José.",
+            "images": ["https://images-mini.cluvi.com/JB8joytgnr/w_1200_JB8joytgnr_pincho-mixto.jpg"]
+        }
+    ]
+}

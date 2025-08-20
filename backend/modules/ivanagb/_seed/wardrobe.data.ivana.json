@@ -1,0 +1,128 @@
+{
+    "name": "Ivana Geraldine",
+    "email": "ivanagbarreto@gmail.com",
+    "username": "ivanagbarreto",
+    "role": "admin",
+    "password": "$2b$10$JtOfIuzOnEi6JVtiATElJ.GcOInNRFTZz9F5Y3lMa40TyYb9AjqCi",
+    "isPublic": false,
+    "wardrobes": [
+        {
+            "name": "Armario de verano",
+            "slug": "armario-de-verano",
+            "description": "Ropa ligera y fresca para el verano",
+            "tops": [
+                {
+                    "name": "Camiseta",
+                    "color": "Azul",
+                    "size": "M",
+                    "brand": "Zara",
+                    "image": "https://i.postimg.cc/RhM5X01N/top1.jpg"
+                },
+                {
+                    "name": "Blusa",
+                    "color": "Blanco",
+                    "size": "S",
+                    "brand": "Uniqlo",
+                    "image": "https://i.postimg.cc/FsPzkY3W/top2.jpg"
+                },
+                {
+                    "name": "Top sin mangas",
+                    "color": "Negro",
+                    "size": "L",
+                    "brand": "Mango",
+                    "image": "https://i.postimg.cc/Y9fqr0tx/top3.jpg"
+                },
+                {
+                    "name": "Crop top",
+                    "color": "Rojo",
+                    "size": "M",
+                    "brand": "Pull&Bear",
+                    "image": "https://i.postimg.cc/YqSq7tZ1/top4.jpg"
+                },
+                {
+                    "name": "Camiseta básica",
+                    "color": "Verde",
+                    "size": "M",
+                    "brand": "Stradivarius",
+                    "image": "https://i.postimg.cc/PxhTRH1v/top5.jpg"
+                },
+                {
+                    "name": "Tank top",
+                    "color": "Amarillo",
+                    "size": "M",
+                    "brand": "Bershka",
+                    "image": "https://i.postimg.cc/05VPcLjr/top6.jpg"
+                },
+                {
+                    "name": "Polo",
+                    "color": "Gris",
+                    "size": "M",
+                    "brand": "H&M",
+                    "image": "https://i.postimg.cc/7L1y7RjH/top7.jpg"
+                }
+            ],
+            "bottoms": [
+                {
+                    "name": "Short",
+                    "color": "Beige",
+                    "size": "32",
+                    "brand": "H&M",
+                    "image": "https://i.postimg.cc/YCzHLV5p/bottom1.jpg"
+                },
+                {
+                    "name": "Jean",
+                    "color": "Azul",
+                    "size": "30",
+                    "brand": "Levi's",
+                    "image": "https://i.postimg.cc/pXNbGRxW/bottom2.jpg"
+                },
+                {
+                    "name": "Pantalón",
+                    "color": "Negro",
+                    "size": "34",
+                    "brand": "Zara",
+                    "image": "https://i.postimg.cc/C5ktTnYF/bottom3.jpg"
+                },
+                {
+                    "name": "Pantalón deportivo",
+                    "color": "Rojo",
+                    "size": "M",
+                    "brand": "Adidas",
+                    "image": "https://i.postimg.cc/Jh0272mY/bottom4.jpg"
+                },
+                {
+                    "name": "Leggins",
+                    "color": "Verde",
+                    "size": "S",
+                    "brand": "Nike",
+                    "image": "https://i.postimg.cc/3wktQ0CP/bottom5.jpg"
+                },
+                {
+                    "name": "Jogger",
+                    "color": "Gris",
+                    "size": "36",
+                    "brand": "Puma",
+                    "image": "https://i.postimg.cc/L6mv6b3k/bottom6.jpg"
+                },
+                {
+                    "name": "Bermuda",
+                    "color": "Azul oscuro",
+                    "size": "M",
+                    "brand": "Hollister",
+                    "image": "https://i.postimg.cc/jSFhcd0v/bottom7.jpg"
+                }
+            ],
+            "outfits": [
+                {
+                    "name": "Outfit para evento",
+                    "type": "Formal",
+                    "description": "Ideal para una salida formal",
+                    "date": "2025-07-18",
+                    "isActive": true,
+                    "createdAt": "2025-07-25T21:13:28.885Z",
+                    "updatedAt": "2025-07-25T21:13:28.885Z"
+                }
+            ]
+        }
+    ]
+}

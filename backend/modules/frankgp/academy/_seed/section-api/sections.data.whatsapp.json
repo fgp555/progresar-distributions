@@ -1,0 +1,66 @@
+[
+    {
+        "courseId": 25210000,
+        "sectionOrder": 3,
+        "slug": "api-whatsapp",
+        "titleSection": "WhatsApp Cloud API",
+        "lessons": [
+            {
+                "lessonOrder": 1,
+                "slug": "whatsapp-token-permanente",
+                "labelLesson": "WhatsApp Token Permanente",
+                "titleLesson": "Cómo Crear un Token Permanente en WhatsApp Cloud API",
+                "descriptionLesson": "¡Olvídate de renovar tu token cada 24 horas! 🔄 En este tutorial te enseño cómo generar un token permanente en WhatsApp Cloud API paso a paso, para que puedas trabajar de forma continua y sin interrupciones en tus integraciones y chatbots.",
+                "tags": ["WhatsApp", "API", "token", "automatización", "chatbot"],
+                "youtubeUrl": "https://youtu.be/S4A9wyQL-H0",
+                "links": [
+                    {
+                        "name": "Access Token Debugger",
+                        "url": "https://developers.facebook.com/tools/debug/accesstoken"
+                    },
+                    {
+                        "name": "Access Token Tool",
+                        "url": "https://developers.facebook.com/tools/accesstoken"
+                    }
+                ],
+                "createdAt": "2025-06-15T00:00:00.000Z"
+            },
+            {
+                "lessonOrder": 2,
+                "slug": "rest-client",
+                "labelLesson": "Cómo Usar REST Client",
+                "titleLesson": "📡 Cómo Usar REST Client | Alternativa a Postman, Thunder Client e Insomnia 🚀",
+                "descriptionLesson": "Aprende a usar REST Client con archivos request.http en VS Code como una alternativa avanzada y ligera a Postman, Thunder Client e Insomnia. 🚀 En este tutorial, te mostraré cómo hacer solicitudes GET, POST, PUT y DELETE, además de gestionar variables de archivo, sistema y globales para mejorar tu flujo de trabajo.",
+                "tags": ["REST Client", "VS Code", "API", "Postman", "Thunder Client", "Insomnia"],
+                "youtubeUrl": "https://youtu.be/_IAuJfkyz3I",
+                "links": [
+                    {
+                        "name": "REST Client ",
+                        "url": "https://marketplace.visualstudio.com/items/?itemName=humao.rest-client"
+                    },
+                    {
+                        "name": "Repositorio de Node.js para Tutoriales",
+                        "url": "https://github.com/fgp555/nodejs-for-tutorials"
+                    }
+                ],
+                "createdAt": "2025-06-20T00:00:00.000Z"
+            },
+            {
+                "lessonOrder": 3,
+                "slug": "whatsapp-api-cloud",
+                "labelLesson": "Cómo funciona un Bot con IA",
+                "titleLesson": "Cómo funciona un Bot de WhatsApp con IA (GPT-4o + Node.js + API Meta) | Guía técnica completa",
+                "descriptionLesson": "¿Quieres entender cómo funcionan los bots y las automatizaciones modernas? En este video te muestro paso a paso cómo funciona un bot conversacional con inteligencia artificial, usando:",
+                "tags": ["WhatsApp", "API", "bot", "IA", "GPT-4o", "Node.js"],
+                "youtubeUrl": "https://youtu.be/qhtma2A9z0o",
+                "links": [
+                    {
+                        "name": "Repositorio",
+                        "url": "https://fgp.one/repo/whatsapp-api-cloud"
+                    }
+                ],
+                "createdAt": "2025-06-20T00:00:00.000Z"
+            }
+        ]
+    }
+]

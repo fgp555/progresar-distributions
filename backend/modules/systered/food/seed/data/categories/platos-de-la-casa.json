@@ -1,0 +1,40 @@
+{
+    "name": "Platos de la casa",
+    "slug": "platos-de-la-casa",
+    "order": 3,
+    "thumbnail": "https://images.cluvi.com/jIUcYSY0oy/w_1200_jIUcYSY0oy_platos_de_la_casa.png",
+    "menus": [
+        {
+            "name": "Carne Oreada",
+            "slug": "carne-oreada",
+            "price": 59000,
+            "description": "200 gr de carne oreada, ahumada y asada al carbón, con adobos naturales únicos.",
+            "images": ["https://images-mini.cluvi.com/7gLZxN0ex9/w_1200_7gLZxN0ex9_carne-oreada.jpg"]
+        },
+        {
+            "name": "Sobrebarriga",
+            "slug": "sobrebarriga",
+            "price": 53000,
+            "description": "200 gr de sobrebarriga, suavemente asada al carbón y marinada con nuestros adobos naturales.",
+            "images": ["https://images-mini.cluvi.com/2RQyrJfGf7/w_1200_2RQyrJfGf7_sobrebarriga.jpeg"]
+        },
+        {
+            "name": "Carne Sangileña",
+            "slug": "carne-sangilena",
+            "price": 56000,
+            "description": "250 gr de corte madurado asado al carbón, marinado con adobos naturales.",
+            "images": [
+                "https://images-mini.cluvi.com/0ajb94J9sN/w_1200_0ajb94J9sN_whatsapp-image-2023-01-31-at-11-03-51-pm.jpeg"
+            ]
+        },
+        {
+            "name": "Cabro",
+            "slug": "cabro",
+            "price": 64900,
+            "description": "500gr de cabro cocinado en leña y asado al carbón, acompañado de arepa santandereana, arroz de pepitoria y cebollitas ocañeras. Deliciosos cortes madurados, asados a la parrilla con nuestros adobos naturales. Acompañados según su elección: (papa - yuca al vapor, o francesa, o criolla).",
+            "images": [
+                "https://images-mini.cluvi.com/yMjzokMMcV/w_1200_yMjzokMMcV_whatsapp-image-2023-01-31-at-10-52-33-pm.jpeg"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "name": "De la Tierrita",
+    "slug": "de-la-tierrita",
+    "order": 1,
+    "thumbnail": "https://images-mini.cluvi.com/fOV3vuIoU0/w_1200_fOV3vuIoU0_la-llanera-sangilena-43.png",
+    "menus": [
+        {
+            "name": "Mute Sangileño",
+            "slug": "mute-sangileno",
+            "price": 32900,
+            "description": "Una joya de nuestra cocina Santandereana: Mute tradicional lleno de sabor, acompañado de arroz blanco y yuca al vapor.",
+            "images": ["https://images-mini.cluvi.com/Lq4eA7vY4i/w_1200_Lq4eA7vY4i_mute.jpg"]
+        },
+        {
+            "name": "Sopa de Sancocho ",
+            "slug": "sopa-de-sancocho",
+            "price": 21900,
+            "description": "Caldo reconfortante con toques de res y pollo, el sabor puro de Santander en cada cucharada.",
+            "images": [
+                "https://images-mini.cluvi.com/6X9MWrIVu3/w_1200_6X9MWrIVu3_whatsapp-image-2023-01-31-at-10-51-30-pm.jpeg"
+            ]
+        },
+        {
+            "name": "Sopa de Gallina ",
+            "slug": "sopa-de-gallina",
+            "price": 16900,
+            "description": "Sopa de arroz con menudencias, cada cucharada rebosa con el calor de la cocina Santandereana.",
+            "images": []
+        }
+    ]
+}

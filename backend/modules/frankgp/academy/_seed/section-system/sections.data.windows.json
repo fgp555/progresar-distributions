@@ -1,0 +1,49 @@
+[
+    {
+        "courseId": 25820000,
+        "sectionOrder": 1,
+        "slug": "config",
+        "titleSection": "Configuración",
+        "lessons": [
+            {
+                "lessonOrder": 1,
+                "slug": "instalar-office",
+                "labelLesson": "Instalar Office",
+                "titleLesson": "Como Instalar Office 2024 (Office Deployment Tool)",
+                "descriptionLesson": "En este video, aprenderás a usar herramientas clave para personalizar y desplegar Office LTSC 2021: Office Deployment Tool y Office Customization Tool. Sigue esta guía paso a paso para descargar y configurar los archivos de instalación de Office de manera eficiente.",
+                "tags": ["Office", "Office 2024", "Office LTSC 2021", "Office Deployment Tool", "Office Customization Tool"],
+                "youtubeUrl": "https://youtu.be/LXX2TqORVic",
+                "vkUrl": "https://vk.com/video606230824_456239030",
+                "markdownUrl": "https://frank-gp.github.io/doc/desktop/office/readme.md",
+                "links": [
+                    {
+                        "name": "Documentación",
+                        "url": "https://github.com/frank-gp/doc/tree/main/desktop/office"
+                    }
+                ],
+                "createdAt": "2025-01-01:00:00.000Z"
+            },
+            {
+                "lessonOrder": 2,
+                "slug": "postgres-pass",
+                "labelLesson": "PostgreSQL Password",
+                "titleLesson": "🔒 Cambiar Contraseña en PostgreSQL Fácil y Rápido 🚀 | Guía Paso a Paso",
+                "descriptionLesson": "¿Necesitas cambiar la contraseña de tu usuario en PostgreSQL? 🐘✨ En este video te muestro cómo hacerlo en pocos minutos. 👨‍💻💡",
+                "tags": ["PostgreSQL", "Password PostgreSQL"],
+                "youtubeUrl": "https://youtu.be/W034pKhzmoE",
+                "markdownUrl": "https://frank-gp.github.io/doc/database/postgres/change-password.md",
+                "links": [
+                    {
+                        "name": "PostgreSQL Downloads",
+                        "url": "https://www.postgresql.org/download"
+                    },
+                    {
+                        "name": "Doc",
+                        "url": "https://github.com/frank-gp/doc/tree/main/database/postgres"
+                    }
+                ],
+                "createdAt": "2025-01-04:00:00.000Z"
+            }
+        ]
+    }
+]

@@ -1,0 +1,29 @@
+{
+    "name": "Pa' Acompañar",
+    "slug": "pa-acompanar",
+    "order": 11,
+    "thumbnail": "https://images-mini.cluvi.com/XcWvx8oNnR/w_1200_XcWvx8oNnR_la-llanera-sangilena-34.png",
+    "menus": [
+        {
+            "name": "Ensalada Sangileña",
+            "slug": "ensalada-sangilena",
+            "price": 19800,
+            "description": "Ensalada aguacate, lechuga, tomate, cebolla, zanahoria, pepino, cebolla ocañera.",
+            "images": ["https://images-mini.cluvi.com/1IUZSjoRof/w_1200_1IUZSjoRof_ensalada.jpg"]
+        },
+        {
+            "name": "Porción de Aguacate Grande",
+            "slug": "porcion-de-aguacate-grande",
+            "price": 12900,
+            "description": "",
+            "images": []
+        },
+        {
+            "name": "Porción de Aguacate Pequeño",
+            "slug": "porcion-de-aguacate-pequeno",
+            "price": 8900,
+            "description": "",
+            "images": []
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+[
+    {
+        "courseId": 25120000,
+        "sectionOrder": 3,
+        "slug": "introduccion",
+        "titleSection": "Introduccion",
+        "lessons": [
+            {
+                "lessonOrder": 1,
+                "slug": "virtual-machines",
+                "labelLesson": "Virtual Machines",
+                "titleLesson": "🚀 Introducción a las Máquinas Virtuales en Azure | Tutorial Completo 🌐",
+                "descriptionLesson": "En este tutorial aprenderás los conceptos básicos de las Máquinas Virtuales en Azure, cómo crear y administrar una VM, y cómo utilizarla para desplegar aplicaciones. Ideal para principiantes que desean adentrarse en el mundo de la computación en la nube con Microsoft Azure.",
+                "tags": ["Azure", "Máquinas Virtuales", "VM", "Tutorial", "Cloud Computing"],
+                "youtubeUrl": "",
+                "markdownUrl": "https://frank-gp.github.io/doc/academy/devops/azure/vm/01-create.md",
+                "links": [
+                    {
+                        "name": "Portal de Azure",
+                        "url": "https://portal.azure.com"
+                    }
+                ]
+            },
+            {
+                "lessonOrder": 2,
+                "slug": "mern-github-actions",
+                "labelLesson": "MERN GitHub Actions",
+                "titleLesson": "🚀 Deploy MERN Stack en Azure usando GitHub Actions | CI/CD Paso a Paso 🌐",
+                "descriptionLesson": "En este tutorial aprenderás a desplegar una aplicación MERN Stack (MongoDB, Express, React, Node.js) en Azure utilizando GitHub Actions para configurar un flujo de CI/CD automatizado. Verás cómo llevar tu aplicación de desarrollo a producción sin complicaciones.",
+                "tags": ["Azure", "GitHub Actions", "MERN", "MongoDB", "Express", "React", "Node.js"],
+                "youtubeUrl": "https://youtu.be/Gt5CSoZOK8E",
+                "markdownUrl": "https://frank-gp.github.io/doc/devops/azure/MERN-Stack.md",
+                "links": [
+                    {
+                        "name": "Documentación",
+                        "url": "https://github.com/frank-gp/doc/tree/main/devops/azure"
+                    }
+                ]
+            },
+            {
+                "lessonOrder": 3,
+                "slug": "todo-list-nodejs",
+                "labelLesson": "To-Do List Node.js",
+                "titleLesson": "🚀 Deploy To-Do List Node.js en Azure usando Git Local | Tutorial Paso a Paso 🌐",
+                "descriptionLesson": "En este tutorial te enseño cómo desplegar un proyecto To-Do List desarrollado en Node.js a Azure App Service utilizando un repositorio local con Git. Aprenderás el flujo completo, desde preparar tu proyecto hasta verlo funcionando en la nube.",
+                "tags": ["Azure", "Git Local", "Node.js", "To-Do List", "Deploy", "Azure App Service"],
+                "youtubeUrl": "https://youtu.be/CnOr1b7IR1s"
+            },
+            {
+                "lessonOrder": 4,
+                "slug": "deploy-web-dotnet",
+                "labelLesson": "Deploy Web .NET ",
+                "titleLesson": "🚀 Deploy de Aplicación Web .NET en Azure | Tutorial Paso a Paso 🌐",
+                "descriptionLesson": "En este tutorial aprenderás cómo desplegar una aplicación web desarrollada en .NET utilizando Azure App Service, desde la configuración inicial hasta tener tu aplicación funcionando en la nube. Ideal para desarrolladores que buscan aprovechar el poder de Microsoft Azure para alojar sus aplicaciones.",
+                "tags": ["Azure", "Deploy", ".NET", "Azure App Service"],
+                "youtubeUrl": "https://youtu.be/-K3UThTgSZk"
+            }
+        ]
+    }
+]

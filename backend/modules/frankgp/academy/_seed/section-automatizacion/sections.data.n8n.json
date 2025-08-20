@@ -1,0 +1,58 @@
+[
+    {
+        "courseId": 25610000,
+        "sectionOrder": 2,
+        "slug": "n8n",
+        "titleSection": "Introducción",
+        "lessons": [
+            {
+                "lessonOrder": 1,
+                "slug": "instalacion-n8n",
+                "labelLesson": "Instalación en WSL2",
+                "titleLesson": "Cómo instalar n8n en WSL2 paso a paso",
+                "descriptionLesson": "En este video aprenderás cómo instalar n8n en Windows utilizando WSL2, configurar un túnel seguro con Cloudflare Tunnel y probar tus primeros flujos de automatización usando la API de WhatsApp Business Cloud de Meta.",
+                "tags": ["n8n", "WSL2", "instalación", "automatización", "ubuntu"],
+                "youtubeUrl": "https://youtu.be/6Wc-d3iAsqo",
+                "markdownUrlPremium": "https://frank-gp.github.io/doc/academy/automatization/n8n/01-install-in-wsl.md",
+                "createdAt": "2025-06-15T00:00:00.000Z"
+            },
+            {
+                "lessonOrder": 2,
+                "slug": "custom-domain",
+                "labelLesson": "Dominio Personalizado en n8n",
+                "titleLesson": "Cómo Configurar un Dominio Personalizado en n8n",
+                "descriptionLesson": "Aprende a configurar un dominio personalizado en n8n para que puedas acceder a tu instancia de n8n con una URL amigable y profesional. En este tutorial te guiaré paso a paso para que puedas hacerlo fácilmente.",
+                "tags": ["n8n", "dominio personalizado", "configuración", "tutorial", "automatización"],
+                "youtubeUrl": "https://youtu.be/Fs9qPk-KQnI",
+                "markdownUrlPremium": "https://frank-gp.github.io/doc/academy/automatization/n8n/02-custom-domain.md",
+                "links": [
+                    {
+                        "name": "Dashboard de Cloudflare",
+                        "url": "https://dash.cloudflare.com"
+                    }
+                ],
+                "createdAt": "2025-06-17T00:00:00.000Z"
+            },
+            {
+                "lessonOrder": 3,
+                "slug": "whatsapp-token-permanente",
+                "labelLesson": "WhatsApp Token Permanente",
+                "titleLesson": "Cómo Crear un Token Permanente en WhatsApp Cloud API",
+                "descriptionLesson": "¡Olvídate de renovar tu token cada 24 horas! 🔄 En este tutorial te enseño cómo generar un token permanente en WhatsApp Cloud API paso a paso, para que puedas trabajar de forma continua y sin interrupciones en tus integraciones y chatbots.",
+                "tags": ["WhatsApp", "API", "token", "automatización", "chatbot"],
+                "youtubeUrl": "https://youtu.be/S4A9wyQL-H0",
+                "links": [
+                    {
+                        "name": "Access Token Debugger",
+                        "url": "https://developers.facebook.com/tools/debug/accesstoken"
+                    },
+                    {
+                        "name": "Access Token Tool",
+                        "url": "https://developers.facebook.com/tools/accesstoken"
+                    }
+                ],
+                "createdAt": "2025-06-17T00:00:00.000Z"
+            }
+        ]
+    }
+]

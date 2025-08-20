@@ -1,0 +1,52 @@
+{
+    "name": "Los Premium",
+    "slug": "los-premium",
+    "order": 6,
+    "thumbnail": "https://images-mini.cluvi.com/NLGHGucNXz/w_1200_NLGHGucNXz_la-llanera-sangilena-25.png",
+    "menus": [
+        {
+            "name": "Chuletón ",
+            "slug": "chuleton",
+            "price": 89000,
+            "description": "Cada gramo.600gr de tomahawk steak parrillado al carbón, preparada con nuestros adobos naturales.Deliciosos cortes madurados, asados a la parrilla con nuestros adobos naturales. Acompañados según su elección: (papa - yuca al vapor, o francesa, o criolla).",
+            "images": ["https://images-mini.cluvi.com/22OldzFtJR/w_1200_22OldzFtJR_chuleton.jpg"]
+        },
+        {
+            "name": "Entrañita ",
+            "slug": "entranita",
+            "price": 57000,
+            "description": "325gr de entrañita de res parrillada al carbón, preparada con nuestros adobos naturales. Deliciosos cortes madurados, asados a la parrilla con nuestros adobos naturales. Acompañados según su elección: (papa - yuca al vapor, o francesa, o criolla).",
+            "images": [
+                "https://images-mini.cluvi.com/OLuJ2ykE3D/w_1200_OLuJ2ykE3D_whatsapp-image-2023-01-31-at-11-16-28-pm.jpeg"
+            ]
+        },
+        {
+            "name": "T - Bone ",
+            "slug": "t-bone",
+            "price": 72000,
+            "description": "400gr de corte T-bone parrillado al carbón, preparado con nuestros adobos naturales.Deliciosos cortes madurados, asados a la parrilla con nuestros adobos naturales. Acompañados según su elección: (papa - yuca al vapor, o francesa, o criolla).",
+            "images": ["https://images-mini.cluvi.com/FOpnhKydxq/w_1200_FOpnhKydxq_tbone.jpeg"]
+        },
+        {
+            "name": "Asado de Tira ",
+            "slug": "asado-de-tira",
+            "price": 57000,
+            "description": "500gr de asado de tira parrillado al carbón, preparado con nuestros adobos naturales. Deliciosos cortes madurados, asados a la parrilla con nuestros adobos naturales. Acompañados según su elección: (papa - yuca al vapor, o francesa, o criolla).",
+            "images": []
+        },
+        {
+            "name": "Bife de Chorizo",
+            "slug": "bife-de-chorizo",
+            "price": 77000,
+            "description": "500 Gr de suculento bife de chorizo parrillado al carbón y sazonado con maestría para una experiencia carnivora de primera.",
+            "images": []
+        },
+        {
+            "name": "Sirloin",
+            "slug": "sirloin",
+            "price": 84000,
+            "description": "500 Gr de jugoso Sirloín parrillado al carbón y preparado con nuestros adobos naturales.",
+            "images": []
+        }
+    ]
+}

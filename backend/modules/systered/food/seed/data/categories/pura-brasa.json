@@ -1,0 +1,47 @@
+{
+    "name": "Pura Brasa",
+    "slug": "pura-brasa",
+    "order": 9,
+    "thumbnail": "https://images-mini.cluvi.com/2sEw1khyfw/w_1200_2sEw1khyfw_la-llanera-sangilena-47.png",
+    "menus": [
+        {
+            "name": "Pollo Completo ",
+            "slug": "pollo-completo",
+            "price": 57000,
+            "description": "Pollo preparado 100% al carbón y sellado en brasa, marinado con nuestros adobos naturales. Acompañado con papa - yuca y aji.",
+            "images": ["https://images-mini.cluvi.com/kf2ics2klv/w_1200_kf2ics2klv_pollocarbon.jpeg"]
+        },
+        {
+            "name": "1/2 Pollo",
+            "slug": "12-pollo",
+            "price": 32000,
+            "description": "Pollo preparado 100% al carbón y sellado en brasa, marinado con nuestros adobos naturales. Acompañado con papa - yuca y aji.",
+            "images": [
+                "https://images-mini.cluvi.com/tKwj37OIEp/w_1200_tKwj37OIEp_whatsapp-image-2023-01-31-at-10-30-22-pm-2.jpeg"
+            ]
+        },
+        {
+            "name": "1/4 Pollo",
+            "slug": "14-pollo",
+            "price": 17000,
+            "description": "Pollo preparado 100% al carbón y sellado en brasa, marinado con nuestros adobos naturales. Acompañado con papa - yuca y aji.",
+            "images": [
+                "https://images-mini.cluvi.com/z72lEDI9NI/w_1200_z72lEDI9NI_whatsapp-image-2023-01-31-at-10-57-31-pm.jpeg"
+            ]
+        },
+        {
+            "name": "Gallina Completa",
+            "slug": "gallina-completa",
+            "price": 59000,
+            "description": "Gallina previamente cocinada en leña y asada al carbón, acompañada de una sopa de arroz. Acompañado con papa - yuca y aji.",
+            "images": ["https://images-mini.cluvi.com/kVxy5s9cvv/w_1200_kVxy5s9cvv_gallina.jpg"]
+        },
+        {
+            "name": "Media Gallina",
+            "slug": "media-gallina",
+            "price": 33000,
+            "description": "Gallina previamente cocinada en leña y asada al carbón. Acompañado con papa - yuca y aji.",
+            "images": ["https://images-mini.cluvi.com/GrbnufKT53/w_1200_GrbnufKT53_gallina2.jpg"]
+        }
+    ]
+}

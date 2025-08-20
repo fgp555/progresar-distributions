@@ -1,0 +1,31 @@
+{
+    "name": "Pura Leña",
+    "slug": "pura-lena",
+    "order": 2,
+    "thumbnail": "https://images-mini.cluvi.com/65xOIZx1qk/w_1200_65xOIZx1qk_la-llanera-sangilena-44.png",
+    "menus": [
+        {
+            "name": "Carne a la Llanera",
+            "slug": "carne-a-la-llanera",
+            "price": 44900,
+            "description": "Degusta 250gramos de la mejor carne a la llanera de la ciudad, acompañada con papa y yuca al vapor.",
+            "images": []
+        },
+        {
+            "name": "Mixto Llanero",
+            "slug": "mixto-llanero",
+            "price": 44900,
+            "description": "Saborea la combinación perfecta con 125 gr de nuestra selecta carne a la llanera y 125 gr de suculento cerdo, ambos aclamados como los mejores de la ciudad, servidos con yuca y papa al vapor.",
+            "images": [
+                "https://images-mini.cluvi.com/kPuIHngtH2/w_1200_kPuIHngtH2_whatsapp-image-2023-01-31-at-11-06-07-pm.jpeg"
+            ]
+        },
+        {
+            "name": "Cerdo a la Llanera",
+            "slug": "cerdo-a-la-llanera",
+            "price": 44900,
+            "description": "Prueba 250 gramos de nuestro exquisito cerdo a la llanera, reconocido como el mejor de la ciudad, con papa y yuca al vapor.",
+            "images": []
+        }
+    ]
+}

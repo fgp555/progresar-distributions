@@ -1,0 +1,29 @@
+{
+    "name": "Menú Infantil",
+    "slug": "menu-infantil",
+    "order": 7,
+    "thumbnail": "https://images-mini.cluvi.com/weICVVEQjH/w_1200_weICVVEQjH_la-llanera-sangilena-46.png",
+    "menus": [
+        {
+            "name": "Pechuga Apanada",
+            "slug": "pechuga-apanada",
+            "price": 31000,
+            "description": "150gr de filete de pechuga apanada, acompañada de papa a la francesa.",
+            "images": []
+        },
+        {
+            "name": "Salchipapa",
+            "slug": "salchipapa",
+            "price": 25000,
+            "description": "Una deliciosa combinación de salchichas y papas a la francesa, un clásico que nunca pasa de moda.",
+            "images": []
+        },
+        {
+            "name": "Choripapa Sangileño",
+            "slug": "choripapa-sangileno",
+            "price": 24000,
+            "description": "2 porciones de chorizo parrillado, acompañado de papa a la francesa.",
+            "images": []
+        }
+    ]
+}

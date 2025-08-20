@@ -1,0 +1,43 @@
+{
+    "name": "Para Arrancar",
+    "slug": "para-arrancar",
+    "order": 0,
+    "thumbnail": "https://images-mini.cluvi.com/ZFgp4dF2QA/w_1200_ZFgp4dF2QA_la-llanera-sangilena-42.png",
+    "menus": [
+        {
+            "name": "Chorizo del Valle de San José",
+            "slug": "chorizo-del-valle-de-san-jose",
+            "price": 18000,
+            "description": "2 chorizos jugosos acompañados de suave papa al vapor y yuca, con tu elección de parrillero ahumado o dulce melado.",
+            "images": []
+        },
+        {
+            "name": "Morcilla Sangileña ",
+            "slug": "morcilla-sangilena",
+            "price": 15000,
+            "description": "Redescubre lo autentico: morcilla tradicional, acompañada de suave yuca y papa.",
+            "images": []
+        },
+        {
+            "name": "Entrada Llanera",
+            "slug": "entrada-llanera",
+            "price": 29000,
+            "description": "Deliciosa morcilla de la casa, 2 chorizos del Valle de San Jose (parrillero o con melado),\racompañado de papa y yuca al vapor.",
+            "images": []
+        },
+        {
+            "name": "Chicharrones a la Llanera",
+            "slug": "chicharrones-a-la-llanera",
+            "price": 33500,
+            "description": "250 Gs del mejor chicharrón pietrán en cocción lenta en leña por más de CUATRO HORAS.",
+            "images": []
+        },
+        {
+            "name": "Mazorca",
+            "slug": "mazorca",
+            "price": 19000,
+            "description": "Mazorca asada, bañada con salsa tártara de la casa y quesito costeño.",
+            "images": ["https://images-mini.cluvi.com/q4vvJKV5Kt/w_1200_q4vvJKV5Kt_mazorca.jpg"]
+        }
+    ]
+}

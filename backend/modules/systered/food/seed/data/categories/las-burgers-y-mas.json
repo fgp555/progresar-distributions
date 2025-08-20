@@ -1,0 +1,15 @@
+{
+    "name": "Las Burgers y Más",
+    "slug": "las-burgers-y-mas",
+    "order": 8,
+    "thumbnail": "https://images-mini.cluvi.com/p0oKJ3vd89/w_1200_p0oKJ3vd89_mesa-de-trabajo-183.png",
+    "menus": [
+        {
+            "name": "Burger Sangileña ",
+            "slug": "burger-sangilena",
+            "price": 27500,
+            "description": "Una hamburguesa de 180 gr de carne madurada, adobada y asada al carbón con queso doble crema, lechuga, tomate y pan brioche, acompañada de papita francesa.",
+            "images": ["https://images-mini.cluvi.com/pXyNUV3ex3/w_1200_pXyNUV3ex3_sangilena.jpg"]
+        }
+    ]
+}

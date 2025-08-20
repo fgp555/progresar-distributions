@@ -1,0 +1,122 @@
+[
+    {
+        "slug": "devops",
+        "name": "Devops",
+        "description": "Aprende Devops desde cero con ejemplos prácticos.",
+        "thumbnail": "https://i.postimg.cc/FRnwC2DP/devops.webp",
+        "courses": [
+            {
+                "id": 25110000,
+                "slug": "aws",
+                "title": "AWS",
+                "description": "Aprende AWS desde cero con ejemplos prácticos.",
+                "thumbnail": "https://i.postimg.cc/B6vdgqcL/aws.webp",
+                "createdAt": "2025-05-29:00:00.000Z"
+            },
+            {
+                "id": 25120000,
+                "slug": "azure",
+                "title": "Azure",
+                "description": "Aprende Azure desde cero con ejemplos prácticos.",
+                "thumbnail": "https://i.postimg.cc/Wpd4pjL1/azure.webp",
+                "createdAt": "2025-05-20:00:00.000Z"
+            },
+            {
+                "id": 25130000,
+                "slug": "cpanel",
+                "title": "CPanel",
+                "description": "Aprende CPanel desde cero con ejemplos prácticos.",
+                "thumbnail": "https://i.postimg.cc/Wpgcd1Dw/cpanel.webp",
+                "createdAt": "2025-06-01:00:00.000Z"
+            }
+        ]
+    },
+    {
+        "slug": "mobile",
+        "name": "Mobile",
+        "description": "Aprende Mobile desde cero con ejemplos prácticos.",
+        "thumbnail": "https://i.postimg.cc/SshWTby9/mobile.webp",
+        "courses": [
+            {
+                "id": 25310000,
+                "slug": "flutter",
+                "title": "Flutter",
+                "description": "Aprende Flutter desde cero con ejemplos prácticos.",
+                "thumbnail": "https://i.postimg.cc/sx2GqVbM/flutter.webp",
+                "createdAt": "2025-07-15:00:00.000Z"
+            }
+        ]
+    },
+    {
+        "slug": "api",
+        "name": "API",
+        "description": "Aprende APIs desde cero con ejemplos prácticos.",
+        "thumbnail": "https://i.postimg.cc/bY4wsMpH/whatsapp.webp",
+        "courses": [
+            {
+                "id": 25210000,
+                "slug": "whatsapp",
+                "title": "Api WhatsApp",
+                "description": "Muy Pronto: Aprende Api WhatsApp desde cero con ejemplos prácticos.",
+                "thumbnail": "https://i.postimg.cc/bY4wsMpH/whatsapp.webp",
+                "createdAt": "2025-01-01:00:00.000Z"
+            }
+        ]
+    },
+    {
+        "slug": "automatizacion",
+        "name": "Automatización",
+        "description": "Aprende Automatización desde cero con ejemplos prácticos.",
+        "thumbnail": "https://i.postimg.cc/2jJf8P1w/n8n.webp",
+        "courses": [
+            {
+                "id": 25610000,
+                "slug": "n8n",
+                "title": "n8n",
+                "description": "Aprende n8n desde cero con ejemplos prácticos.",
+                "thumbnail": "https://i.postimg.cc/2jJf8P1w/n8n.webp",
+                "createdAt": "2025-06-15:00:00.000Z"
+            }
+        ]
+    },
+    {
+        "slug": "dev",
+        "name": "Developer",
+        "description": "Aprende Programación desde cero con ejemplos prácticos.",
+        "thumbnail": "https://i.postimg.cc/YqvmyXDV/dev.webp",
+        "courses": [
+            {
+                "id": 25510000,
+                "slug": "springboot",
+                "title": "Spring Boot",
+                "description": "Aprende Spring Boot desde cero con ejemplos prácticos.",
+                "thumbnail": "https://i.postimg.cc/597CgcgL/springboot.webp",
+                "createdAt": "2025-01-01:00:00.000Z"
+            }
+        ]
+    },
+    {
+        "slug": "systems",
+        "name": "Sistemas",
+        "description": "Aprende Sistemas desde cero con ejemplos prácticos.",
+        "thumbnail": "https://i.postimg.cc/PJp9g27d/system.webp",
+        "courses": [
+            {
+                "id": 25810000,
+                "slug": "cloudflare",
+                "title": "Cloudflare",
+                "description": "Aprende a proteger, optimizar y exponer tu sitio web o servicios usando Cloudflare. Desde conceptos básicos como DNS y proxy inverso, hasta túneles seguros con cloudflared y configuración de dominios personalizados. Ideal para desarrolladores, administradores y entusiastas de la seguridad web.",
+                "thumbnail": "https://i.postimg.cc/KjsTdmfC/cloudflare.webp",
+                "createdAt": "2025-06-15:00:00.000Z"
+            },
+            {
+                "id": 25820000,
+                "slug": "windows",
+                "title": "Windows",
+                "description": "Tutoriales para Windows.",
+                "thumbnail": "https://i.postimg.cc/yY9Y9PNq/windows.webp",
+                "createdAt": "2025-01-01:00:00.000Z"
+            }
+        ]
+    }
+]

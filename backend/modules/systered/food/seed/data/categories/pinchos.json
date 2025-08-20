@@ -1,0 +1,22 @@
+{
+    "name": "Pinchos",
+    "slug": "pinchos",
+    "order": 5,
+    "thumbnail": "https://images-mini.cluvi.com/JsQQqCGCf8/w_1200_JsQQqCGCf8_la-llanera-sangilena-32.png",
+    "menus": [
+        {
+            "name": "Pincho Carne",
+            "slug": "pincho-carne",
+            "price": 41000,
+            "description": "200gr de carne sangileña y 1 chorizo del valle san José parrillero.Acompañado con papa y yuca, o francesa, o criolla.",
+            "images": []
+        },
+        {
+            "name": "Pincho de Pollo",
+            "slug": "pincho-de-pollo",
+            "price": 33000,
+            "description": "200gr de pechuga parrillera y 1 chorizo del valle san José parrillero.Acompañado con papa y yuca, o francesa, o criolla.",
+            "images": []
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "La Pesca",
+    "slug": "la-pesca",
+    "order": 10,
+    "thumbnail": "https://images-mini.cluvi.com/CfWM5ir76k/w_1200_CfWM5ir76k_la-llanera-sangilena-48.png",
+    "menus": [
+        {
+            "name": "Salmón ",
+            "slug": "salmon",
+            "price": 59900,
+            "description": "250 gr de  salmón importado, marinado con adobos naturales y parrillado al carbón para un sabor excepcional.",
+            "images": []
+        }
+    ]
+}

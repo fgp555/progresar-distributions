@@ -1,0 +1,50 @@
+{
+    "name": "Cervezas",
+    "slug": "cervezas",
+    "order": 13,
+    "thumbnail": "https://images-mini.cluvi.com/fZmN8OqndD/w_1200_fZmN8OqndD_la-llanera-sangilena-49.png",
+    "menus": [
+        {
+            "name": "Club Colombia",
+            "slug": "club-colombia",
+            "price": 7000,
+            "description": "",
+            "images": []
+        },
+        {
+            "name": "Aguila Normal",
+            "slug": "aguila-normal",
+            "price": 7000,
+            "description": "",
+            "images": []
+        },
+        {
+            "name": "Aguila Light",
+            "slug": "aguila-light",
+            "price": 7000,
+            "description": "",
+            "images": []
+        },
+        {
+            "name": "Budweiser",
+            "slug": "budweiser",
+            "price": 8000,
+            "description": "",
+            "images": []
+        },
+        {
+            "name": "Coronita",
+            "slug": "coronita",
+            "price": 7000,
+            "description": "",
+            "images": []
+        },
+        {
+            "name": "Corona",
+            "slug": "corona",
+            "price": 8000,
+            "description": "",
+            "images": []
+        }
+    ]
+}

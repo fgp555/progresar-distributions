@@ -1,0 +1,101 @@
+{
+    "name": "Pa' Que Jarte",
+    "slug": "pa-que-jarte",
+    "order": 12,
+    "thumbnail": "https://images-mini.cluvi.com/ZkA84JCaPb/w_1200_ZkA84JCaPb_la-llanera-sangilena-36.png",
+    "menus": [
+        {
+            "name": "Cerveza Nacional ",
+            "slug": "cerveza-nacional",
+            "price": 8000,
+            "description": "",
+            "images": ["https://images-mini.cluvi.com/jiKgd9SJfg/w_1200_jiKgd9SJfg_lata-330.jfif"]
+        },
+        {
+            "name": "Cerveza Importada",
+            "slug": "cerveza-importada",
+            "price": 10000,
+            "description": "",
+            "images": [
+                "https://images-mini.cluvi.com/wqDTa9yPz8/w_1200_wqDTa9yPz8_png-transparent-iced-beer-ice-block-beer-drink.png"
+            ]
+        },
+        {
+            "name": "Agua sin Gas ",
+            "slug": "agua-sin-gas",
+            "price": 5000,
+            "description": "",
+            "images": ["https://images-mini.cluvi.com/6KabL6Covg/w_1200_6KabL6Covg_agua.jpg"]
+        },
+        {
+            "name": "Gaseosa Personal ",
+            "slug": "gaseosa-personal",
+            "price": 7000,
+            "description": "",
+            "images": ["https://images-mini.cluvi.com/aRFBUvz8JL/w_1200_aRFBUvz8JL_pet400.jpg"]
+        },
+        {
+            "name": "Granizadas",
+            "slug": "granizadas",
+            "price": 14000,
+            "description": "(Tiene azúcar).",
+            "images": ["https://images-mini.cluvi.com/mzttOlpPEq/w_1200_mzttOlpPEq_granizada.jpg"]
+        },
+        {
+            "name": "Vaso de Limonada",
+            "slug": "vaso-de-limonada",
+            "price": 7500,
+            "description": "",
+            "images": ["https://images-mini.cluvi.com/3Ot0ao8aUg/w_1200_3Ot0ao8aUg_limonada.jpg"]
+        },
+        {
+            "name": "Vaso de Refajo",
+            "slug": "vaso-de-refajo",
+            "price": 11000,
+            "description": "",
+            "images": []
+        },
+        {
+            "name": "Jarra Limonada ",
+            "slug": "jarra-limonada",
+            "price": 21000,
+            "description": "",
+            "images": ["https://images-mini.cluvi.com/7TOl9BG6Uv/w_1200_7TOl9BG6Uv_limonada.jpg"]
+        },
+        {
+            "name": "Jarra Refajo Sangileño ",
+            "slug": "jarra-refajo-sangileno",
+            "price": 26000,
+            "description": "",
+            "images": ["https://images-mini.cluvi.com/AZ4pibhzA5/w_1200_AZ4pibhzA5_refajo.jpeg"]
+        },
+        {
+            "name": "Agua con Gas ",
+            "slug": "agua-con-gas",
+            "price": 4500,
+            "description": "",
+            "images": ["https://images-mini.cluvi.com/7KohlkTujO/w_1200_7KohlkTujO_agua-con-gas.jpg"]
+        },
+        {
+            "name": "Soda Bretaña",
+            "slug": "soda-bretana",
+            "price": 6000,
+            "description": "",
+            "images": ["https://images-mini.cluvi.com/b2D8Qpbe0P/w_1200_b2D8Qpbe0P_bretana.jfif"]
+        },
+        {
+            "name": "Jugo Hit ",
+            "slug": "jugo-hit",
+            "price": 6000,
+            "description": "",
+            "images": ["https://images-mini.cluvi.com/1eNhwPmEyX/w_1200_1eNhwPmEyX_hit-cajita.jpg"]
+        },
+        {
+            "name": "Mr. Tea ",
+            "slug": "mr-tea",
+            "price": 6000,
+            "description": "",
+            "images": ["https://images-mini.cluvi.com/ogWzs4US75/w_1200_ogWzs4US75_mr-tea.jfif"]
+        }
+    ]
+}

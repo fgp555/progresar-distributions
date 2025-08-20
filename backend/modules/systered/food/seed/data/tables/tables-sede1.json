@@ -1,0 +1,7 @@
+[
+    {
+        "number": "T1",
+        "available": true,
+        "users": [{ "id": 1 }]
+    }
+]

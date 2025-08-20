@@ -1,0 +1,44 @@
+{
+    "name": "Frank GP",
+    "username": "fgp555",
+    "email": "fgp555@gmail.com",
+    "role": "admin",
+    "isPublic": false,
+    "password": "$2b$10$5AuGAEUku2lNPDp.dMUaJudtKWYeebvJgttkH1GSU/XnybfkmCHCu",
+    "wardrobes": [
+        {
+            "name": "Armario de verano",
+            "slug": "armario-de-verano",
+            "description": "Ropa ligera y fresca para el verano",
+            "tops": [
+                {
+                    "name": "Camiseta",
+                    "color": "Azul",
+                    "size": "M",
+                    "brand": "Zara",
+                    "image": "https://i.postimg.cc/RhM5X01N/top1.jpg"
+                }
+            ],
+            "bottoms": [
+                {
+                    "name": "Short",
+                    "color": "Beige",
+                    "size": "32",
+                    "brand": "H&M",
+                    "image": "https://i.postimg.cc/YCzHLV5p/bottom1.jpg"
+                }
+            ],
+            "outfits": [
+                {
+                    "name": "Outfit para evento",
+                    "type": "Formal",
+                    "description": "Ideal para una salida formal",
+                    "date": "2025-07-18",
+                    "isActive": true,
+                    "createdAt": "2025-07-25T21:13:28.885Z",
+                    "updatedAt": "2025-07-25T21:13:28.885Z"
+                }
+            ]
+        }
+    ]
+}
