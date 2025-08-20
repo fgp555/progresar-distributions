@@ -1,0 +1,22 @@
+/_env
+*.ignore*
+
+.idea/
+.vscode/
+node_modules/
+package-lock.json
+build/
+tmp/
+temp/
+.env
+# /dist
+/_credentials
+package-lock.json
+/backups
+uploads
+*temp.*
+*.temp*
+/docs
+
+.wwebjs_auth/
+.wwebjs_cache/
