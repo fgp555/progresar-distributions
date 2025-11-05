@@ -6,7 +6,7 @@ const dotenv_1 = require("dotenv");
 (0, dotenv_1.config)({ path: ".env" });
 exports.PORT = process.env.PORT || 3000;
 exports.ENABLE_FRONTEND = process.env.ENABLE_FRONTEND ? process.env.ENABLE_FRONTEND === "true" : true;
-exports.USE_MODULE = (process.env.USE_MODULE || "default").toLowerCase();
+exports.USE_MODULE = (process.env.USE_MODULE || "progresar_module").toLowerCase();
 exports.ENV_MONGO = {
     USE_IN_AUTH: process.env.MONGO_USE_IN_AUTH === "true",
     URI: process.env.MONGO_URI || "mongodb://localhost:27017/miapp",
@@ -15,7 +15,7 @@ exports.ENV_DB = {
     DB_HOST: process.env.DB_HOST || "localhost",
     DB_PORT: parseInt(process.env.DB_PORT || "3306", 10),
     DB_TYPE: process.env.DB_TYPE || "mysql",
-    DB_DATABASE: process.env.DB_DATABASE || "my_db",
+    DB_DATABASE: process.env.DB_DATABASE || "progresar_db",
     DB_USERNAME: process.env.DB_USERNAME || "root",
     DB_PASSWORD: process.env.DB_TYPE === "mysql" ? process.env.DB_PASSWORD || "" : process.env.DB_PASSWORD,
     SEED_DATA: process.env.SEED_DATA === "true",

@@ -56,11 +56,11 @@ __decorate([
     __metadata("design:type", Number)
 ], LoanEntity.prototype, "cuotasPagadas", void 0);
 __decorate([
-    (0, typeorm_1.CreateDateColumn)(),
+    (0, typeorm_1.Column)({ type: "date" }),
     __metadata("design:type", Date)
 ], LoanEntity.prototype, "fechaCreacion", void 0);
 __decorate([
-    (0, typeorm_1.Column)({ type: "datetime", nullable: true }),
+    (0, typeorm_1.Column)({ type: "date", nullable: true }),
     __metadata("design:type", Date)
 ], LoanEntity.prototype, "fechaVencimiento", void 0);
 __decorate([

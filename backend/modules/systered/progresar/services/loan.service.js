@@ -1,12 +1,13 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.LoanService = void 0;
+// src\modules\systered\progresar\services\loan.service.ts
+const Account_entity_1 = require("../entities/Account.entity");
+const typeOrmConfig_1 = require("../../../../config/typeOrmConfig");
+const error_middleware_1 = require("../middleware/error.middleware");
 const Loan_entity_1 = require("../entities/Loan.entity");
 const LoanInstallment_entity_1 = require("../entities/LoanInstallment.entity");
-const Account_entity_1 = require("../entities/Account.entity");
 const Transaction_entity_1 = require("../entities/Transaction.entity");
-const error_middleware_1 = require("../middleware/error.middleware");
-const typeOrmConfig_1 = require("../../../../config/typeOrmConfig");
 class LoanService {
     constructor() {
         this.repo = typeOrmConfig_1.AppDataSource.getRepository(Loan_entity_1.LoanEntity);
@@ -90,6 +91,8 @@ class LoanService {
         const recentTransactions = account.transacciones?.filter((t) => new Date(t.fecha) > thirtyDaysAgo) || [];
         const scoreRiesgo = this.calculateRiskScore(account, recentTransactions, dto.monto, calculation.montoCuota);
         // Crear préstamo
+        // Guardamos fecha en formato YYYY-MM-DD (string)
+        const fechaCreacion = dto.fechaCreacion ? dto.fechaCreacion.slice(0, 10) : new Date().toISOString().slice(0, 10);
         const loan = this.repo.create({
             cuentaId: accountId,
             montoPrincipal: dto.monto,
@@ -98,29 +101,41 @@ class LoanService {
             montoTotal: calculation.montoTotal,
             interesTotal: calculation.interesTotal,
             cuotasPagadas: 0,
-            fechaCreacion: dto.fechaCreacion ? new Date(dto.fechaCreacion) : new Date(), // 👈 usar body
-            fechaVencimiento: new Date(Date.now() + dto.numeroCuotas * 30 * 24 * 60 * 60 * 1000),
+            fechaCreacion,
+            fechaVencimiento: null, // ✅ lo asignaremos luego
             estado: Loan_entity_1.LoanStatus.ACTIVO,
             descripcion: dto.descripcion || "Préstamo personal",
             scoreAprobacion: scoreRiesgo,
             ratioCapacidadPago: ((calculation.montoCuota / Number(account.saldo)) * 100).toFixed(1),
         });
         const savedLoan = await this.repo.save(loan);
-        // Generar cronograma de cuotas
+        // ✅ Generar cronograma manteniendo día o último día del mes
+        const baseDate = new Date(fechaCreacion + "T00:00:00"); // evitar timezone
+        const diaOriginal = baseDate.getDate();
         const installments = [];
+        let ultimaFechaVenc = null;
         for (let i = 1; i <= dto.numeroCuotas; i++) {
-            const fechaVencimiento = new Date(Date.now() + i * 30 * 24 * 60 * 60 * 1000);
-            const installment = this.installmentRepo.create({
+            const fechaBase = new Date(fechaCreacion);
+            fechaBase.setMonth(fechaBase.getMonth() + i);
+            const ultimoDiaMes = new Date(fechaBase.getFullYear(), fechaBase.getMonth() + 1, 0).getDate();
+            const diaCuota = diaOriginal <= ultimoDiaMes ? diaOriginal : ultimoDiaMes;
+            const fechaVencimiento = new Date(fechaBase);
+            fechaVencimiento.setDate(diaCuota);
+            ultimaFechaVenc = fechaVencimiento;
+            installments.push(this.installmentRepo.create({
                 prestamoId: savedLoan.id,
                 numeroCuota: i,
                 monto: calculation.montoCuota,
                 fechaVencimiento,
                 estado: LoanInstallment_entity_1.InstallmentStatus.PENDIENTE,
-            });
-            installments.push(installment);
+            }));
         }
+        // ✅ Guardar cuotas
         const savedInstallments = await this.installmentRepo.save(installments);
-        // Depositar monto en cuenta
+        // ✅ Actualizar fecha vencimiento del préstamo (última cuota)
+        savedLoan.fechaVencimiento = ultimaFechaVenc;
+        await this.repo.save(savedLoan);
+        // ✅ Registrar transacción de desembolso
         const saldoAnterior = Number(account.saldo);
         account.saldo = Number(account.saldo) - dto.monto;
         const transaction = this.transactionRepo.create({

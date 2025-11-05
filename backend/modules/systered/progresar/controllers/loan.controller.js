@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.LoanController = void 0;
+// src\modules\systered\progresar\controllers\loan.controller.ts
 const loan_service_1 = require("../services/loan.service");
 class LoanController {
     constructor() {

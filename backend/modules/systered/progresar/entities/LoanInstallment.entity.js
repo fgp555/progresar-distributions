@@ -38,11 +38,11 @@ __decorate([
     __metadata("design:type", Number)
 ], LoanInstallmentEntity.prototype, "monto", void 0);
 __decorate([
-    (0, typeorm_1.Column)({ type: "datetime" }),
+    (0, typeorm_1.Column)({ type: "date" }),
     __metadata("design:type", Date)
 ], LoanInstallmentEntity.prototype, "fechaVencimiento", void 0);
 __decorate([
-    (0, typeorm_1.Column)({ type: "datetime", nullable: true }),
+    (0, typeorm_1.Column)({ type: "date", nullable: true }),
     __metadata("design:type", Date)
 ], LoanInstallmentEntity.prototype, "fechaPago", void 0);
 __decorate([
@@ -50,8 +50,8 @@ __decorate([
     __metadata("design:type", String)
 ], LoanInstallmentEntity.prototype, "estado", void 0);
 __decorate([
-    (0, typeorm_1.ManyToOne)(() => Loan_entity_1.LoanEntity, loan => loan.cuotas, {
-        onDelete: "CASCADE"
+    (0, typeorm_1.ManyToOne)(() => Loan_entity_1.LoanEntity, (loan) => loan.cuotas, {
+        onDelete: "CASCADE",
     }),
     (0, typeorm_1.JoinColumn)({ name: "prestamoId" }),
     __metadata("design:type", Loan_entity_1.LoanEntity)
